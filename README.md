@@ -1,16 +1,11 @@
-# 🔐 Simple Password Generator
+# Simple Password Creator
 
-This is a simple Python project that generates random passwords using letters and numbers.
+The **Simple Password Creator** allows users to create a custom password of a specific length. The user can input the desired length of their password, then enter their own password. The program will validate whether the entered password matches the specified length and provide feedback if the password is too short or too long.
 
-## ✅ Features
-- Generates random passwords
-- Uses uppercase, lowercase, and digits
-- Set your desired password length
+## 🚀 How It Works
 
-## 🛠 How to Use
-1. Clone or download this repo
-2. Run the Python file:
-
-```bash
-python password_generator.py
-# Password_generator
+1. The user is prompted to enter the desired length of the password.
+2. The user then creates their own password.
+3. The program checks if the password matches the specified length:
+   - If the password length is exactly correct, the program displays the custom password.
+   - If the password is too short or too long, the program provides an appropriate message.
